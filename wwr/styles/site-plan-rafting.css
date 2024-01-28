@@ -1,0 +1,57 @@
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+:root {
+    --primary-color: #b6f6f5;
+    --secondary-color: #FFFFFF;
+    --accent-color: #E1EFF6;
+    --additional-accent-color: #EBEBEB;
+    --heading-font:'FontName1',Sans-serif;
+    --paragraph-font:'FontName2',Serif; 
+    --navigation-bg-color: #D8E2DC;
+    --navigation-link-color: #FFE5D9;
+    --navigation-hover-link-color: #FFCAD4;
+    --navigation-hover-bg-color: #9D8189;
+}
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: #b6f6f5; 
+}
+
+header {
+    padding: 20px; 
+    background-color: var(--primary-color); 
+}
+p {
+    padding: 10px;
+}
+nav {
+    background-color: var(--navigation-bg-color);
+    font-size: 1.2rem;
+    display: 1rem;
+}
+
+nav a {
+    display: block;
+    color: var(--navigation-link-color); 
+    text-decoration: none;
+    padding: 1rem; 
+}
+
+nav a:link, nav a:visited {
+    color: var(--navigation-link-color);
+}
+
+nav a:hover {
+    color: var(--navigation-hover-link-color); 
+    background-color: var(--navigation-hover-bg-color); 
+}
+
