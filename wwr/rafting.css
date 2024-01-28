@@ -1,0 +1,79 @@
+@import url('https://fonts.google.com/specimen/Urbanist');
+
+
+:root {
+  --primary-color: #3498db; 
+  --secondary-color: #2ecc71; 
+  --text-color: #333; 
+}
+
+
+body {
+  font-family: 'Your Selected Font', sans-serif;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--primary-color);
+  
+}
+
+
+p {
+  color: var(--text-color);
+}
+
+
+a {
+  text-decoration: none;
+}
+
+
+footer p {
+  color: var(--text-color);
+}
+
+
+footer a img {
+  border: none; 
+}
+
+
+body {
+  max-width: 1200px; 
+  margin: 0 auto; 
+}
+
+
+.hero {
+    position: relative;
+    max-width: 100%;
+  }
+  
+ 
+  .hero h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff; 
+  }
+  
+ 
+  .hero article {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 20px;
+    max-width: 400px;
+    color: #fff; 
+  }
+  
+ 
+  .hero article img {
+    float: right;
+    margin-left: 10px; 
+  }
+  
